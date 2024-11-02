@@ -1,0 +1,5 @@
+nombre = input("Ingrese su nombre: ")
+estatura = float(input("Ingrese su estatura: "))
+peso = float(input("Ingrese su peso: "))
+IMC = peso/(estatura**2)
+print("Hola "+nombre+ "Su indice de masa corporal es de:", IMC)
